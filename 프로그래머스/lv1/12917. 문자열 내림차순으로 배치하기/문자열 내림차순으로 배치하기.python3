@@ -1,0 +1,9 @@
+def solution(s):
+    # st = []
+    # for i in range(len(s)):
+    #     st.append(s[i])
+    s = sorted(s)
+    s.reverse()
+    
+    s = ''.join(s)
+    return s
